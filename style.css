@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.top__bar {
+  background-color: #010d27;
+  color: aliceblue;
+}
+
+.hero {
+  background-image: url("./background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__content {
+  margin-left: 10rem;
+  color: white;
+}
+
+.parts {
+  background-color: #010d27;
+  color: white;
+  padding: 4rem 0;
+}
+
+.why__sell {
+  padding: 4rem 0;
+}
+
+.we__have {
+  background-image: url("./Screenshot 2024-03-17 114123.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: #010d27;
+  color: white;
+  padding-top: 4rem;
+}
